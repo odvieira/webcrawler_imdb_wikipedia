@@ -1,0 +1,6 @@
+#!/bin/sh
+git init
+git add -A
+git commit -am "first commit"
+git remote add origin https://github.com/odvieira/webcrawler_imdb_wikipedia.git
+git push -u origin master
